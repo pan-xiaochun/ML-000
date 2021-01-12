@@ -1,8 +1,11 @@
 - 编译方法
+```
 python setup.py install
 kernprof -l -v testtarget.py
+```
 
 - 运行结果
+```
 (base) pxc@iZuf60a8w2ct7ts4lyss39Z:~/ml/ML-000/Week02/temp$ kernprof -l -v testtarget.py
 0.0
 Wrote profile results to testtarget.py.lprof
@@ -24,4 +27,4 @@ Line #      Hits         Time  Per Hit   % Time  Line Contents
     30
     31         1       1535.0   1535.0      0.2      diff = np.linalg.norm(result_1 - result_2)
     32         1         52.0     52.0      0.0      print(diff)
-
+```
